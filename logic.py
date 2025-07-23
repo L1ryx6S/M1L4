@@ -7,7 +7,6 @@ class Pokemon:
     def __init__(self, pokemon_trainer):
 
         self.pokemon_trainer = pokemon_trainer   
-
         self.pokemon_number = randint(1,1000)
         self.img = self.get_img()
         self.name = self.get_name()
